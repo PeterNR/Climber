@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Rock Static
+  m_Name: Rock Moving
   m_Shader: {fileID: -6465566751694194690, guid: a3dddd0a8be02014f86b95316392cd6c,
     type: 3}
   m_ShaderKeywords: 
@@ -55,25 +55,26 @@ Material:
     m_Ints: []
     m_Floats:
     - Fields_Gamma: 1
-    - Fields_Influence: 0.173
+    - Fields_Influence: 0.273
     - Lines_Shade: 1
-    - Lines_Threshold: 0.87
-    - Lines_Threshold_Smoothness: 0.825
-    - Moving: 0
+    - Lines_Threshold: 0.895
+    - Lines_Threshold_Smoothness: 0.376
+    - Moving: 1
     - Overlay_Texture_Tiling: 0.15
+    - Random_Gamma: 1
     - Shading_Angle: 0
-    - Shading_Distance: -0.116
+    - Shading_Distance: 0.226
     - Shading_Influence: 1
     - Shading_Threshold: 0.472
     - Shading_Threshold_Smoothness: 0.083
-    - Shape_Threshold: 0.251
-    - Shape_Threshold_Smoothness: 0.073
+    - Shape_Threshold: 0.186
+    - Shape_Threshold_Smoothness: 0.048
     - Static: 0
     - _EnableExternalAlpha: 0
     m_Colors:
-    - Color_1: {r: 0.7075472, g: 0.32458693, b: 0.26366144, a: 1}
-    - Color_2: {r: 0.7735849, g: 0.4708402, b: 0.39044145, a: 1}
-    - ShadowColor: {r: 0.48571557, g: 0.488442, b: 0.5566038, a: 0.57254905}
+    - Color_1: {r: 0.7924528, g: 0.47257552, b: 0.25792095, a: 1}
+    - Color_2: {r: 0.8705883, g: 0.6509804, b: 0.43921572, a: 1}
+    - ShadowColor: {r: 0.5092003, g: 0.4692506, b: 0.5377358, a: 0.5568628}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
