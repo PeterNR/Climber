@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pickup Outer
+  m_Name: Enemy Static Squiggly B
   m_Shader: {fileID: -6465566751694194690, guid: b603dc7d0d3b99646a015dcd57bd892d,
     type: 3}
   m_ShaderKeywords: 
@@ -46,7 +46,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7c70a59e9a30d9345ac16ff1a5939348, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1f6502563e3c4a24dbbe803a2c4170e9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -75,10 +75,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Noise_Intensity: 0.5
-    - Noise_Speed: 0.4
-    - Rotate_Speed: 10
-    - UV_Based_Multiplier: 1
+    - Noise_Intensity: 0.38
+    - Noise_Speed: 0.16
+    - Rotate_Speed: 0
+    - UV_Based_Multiplier: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -103,12 +103,12 @@ Material:
     - _UVSec: 0
     - _ZWrite: 0
     m_Colors:
-    - Distance_Clamp: {r: 0, g: 0, b: 0, a: 0}
+    - Distance_Clamp: {r: 0.8, g: 1.71, b: 0, a: 0}
     - Remap_From_Center: {r: 0.6, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Tint: {r: 0.8941177, g: 0.8588236, b: 0.7843138, a: 1}
+    - _Tint: {r: 0.8867924, g: 0.8370448, b: 0.73202205, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &6379181035893747266
 MonoBehaviour:

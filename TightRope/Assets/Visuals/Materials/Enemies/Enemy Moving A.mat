@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pickup Outer
-  m_Shader: {fileID: -6465566751694194690, guid: b603dc7d0d3b99646a015dcd57bd892d,
+  m_Name: Enemy Moving A
+  m_Shader: {fileID: -6465566751694194690, guid: 39096a78e55ced04894eee1e549ced99,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -46,7 +46,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7c70a59e9a30d9345ac16ff1a5939348, type: 3}
+        m_Texture: {fileID: 2800000, guid: 48112fb166142994db130ba01c2d1741, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -75,10 +75,19 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Noise_Intensity: 0.5
-    - Noise_Speed: 0.4
-    - Rotate_Speed: 10
-    - UV_Based_Multiplier: 1
+    - Noise_Influence: 0.4
+    - Noise_Intensity: 2.6
+    - Noise_Speed: 7.33
+    - Noise_Speed_Factor: 0.1
+    - Rotate_Speed: 0
+    - Tendril_Offset_Difference: 0.12
+    - UV_Based_Multiplier: 0
+    - Vertex_Color_Offset_Difference: 0.19
+    - Warp_Intensity: 0.1
+    - Warp_Min: 0
+    - Wave_Density: 10
+    - Wave_Intensity: 0.1
+    - Wave_Speed: 5.69
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -91,7 +100,7 @@ Material:
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
-    - _NoiseScale: 2
+    - _NoiseScale: 3
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _QueueOffset: 0
@@ -103,12 +112,13 @@ Material:
     - _UVSec: 0
     - _ZWrite: 0
     m_Colors:
-    - Distance_Clamp: {r: 0, g: 0, b: 0, a: 0}
+    - Distance_Clamp: {r: 0, g: 1, b: 0, a: 0}
     - Remap_From_Center: {r: 0.6, g: 1, b: 0, a: 0}
+    - Warp_UV_Clamp: {r: 0.35, g: 0.76, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Tint: {r: 0.8941177, g: 0.8588236, b: 0.7843138, a: 1}
+    - _Tint: {r: 0.8867924, g: 0.8370448, b: 0.73202205, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &6379181035893747266
 MonoBehaviour:
