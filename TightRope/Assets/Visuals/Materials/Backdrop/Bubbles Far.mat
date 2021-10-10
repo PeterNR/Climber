@@ -51,11 +51,14 @@ Material:
     m_Ints: []
     m_Floats:
     - Main_Texture_Influence: 1
+    - Noise_Intensity: 0
+    - Noise_Speed: 0
     - R_is_Alpha: 1
     - Tiling: 1
     - _EnableExternalAlpha: 0
+    - _NoiseScale: 1
     m_Colors:
-    - Color_1: {r: 0.36142755, g: 0.5849056, b: 0.5745913, a: 1}
+    - Color_1: {r: 0.42653078, g: 0.6698113, b: 0.66127515, a: 1}
     - Color_2: {r: 0.29276434, g: 0.45922884, b: 0.4811321, a: 1}
     - Tint: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

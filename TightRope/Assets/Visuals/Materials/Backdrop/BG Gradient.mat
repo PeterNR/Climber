@@ -50,11 +50,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Main_Texture_Influence: 0.628
-    - Tiling: 0.15
+    - Main_Texture_Influence: 0.3
+    - Tiling: 0.06
     - _EnableExternalAlpha: 0
     m_Colors:
-    - Color_1: {r: 0.22352943, g: 0.48627454, b: 0.47450984, a: 1}
+    - Color_1: {r: 0.21106265, g: 0.4811321, b: 0.46903947, a: 1}
     - Color_2: {r: 0.17254902, g: 0.3019608, b: 0.32156864, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
