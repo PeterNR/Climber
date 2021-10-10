@@ -55,8 +55,9 @@ Material:
     - Noise_Influence: 0.453
     - Noise_Scale: 1
     - Noise_Speed: 1
-    - Slim_Amount: 0
-    - Slimming_Clamp: 0.598
+    - Slim_Amount: 1
+    - Slimming_Clamp: 0.493
+    - Slimming_Gamma: 0.74
     - _EnableExternalAlpha: 0
     m_Colors:
     - Tint: {r: 0.8941177, g: 0.8588236, b: 0.7843138, a: 1}
