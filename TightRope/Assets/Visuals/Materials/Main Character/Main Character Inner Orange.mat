@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pickup Inner
+  m_Name: Main Character Inner Orange
   m_Shader: {fileID: -6465566751694194690, guid: 3765bc0cfb9a592418cb216c1c2ee421,
     type: 3}
   m_ShaderKeywords: 
@@ -59,7 +59,7 @@ Material:
     m_Ints: []
     m_Floats:
     - Noise_Intensity: 0.12
-    - Noise_Speed: 0.8
+    - Noise_Speed: 0.87
     - Rotate_Speed: 0
     - _EnableExternalAlpha: 0
     - _NoiseScale: 1.66
@@ -70,5 +70,5 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Tint: {r: 0.8584906, g: 0.1822268, b: 0.1822268, a: 0}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
