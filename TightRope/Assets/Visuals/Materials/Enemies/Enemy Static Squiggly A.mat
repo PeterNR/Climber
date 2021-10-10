@@ -108,7 +108,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Tint: {r: 0.8867924, g: 0.8370448, b: 0.73202205, a: 1}
+    - _Tint: {r: 0.4862745, g: 0.7019608, b: 0.65225, a: 0.46666667}
   m_BuildTextureStacks: []
 --- !u!114 &6379181035893747266
 MonoBehaviour:

@@ -75,16 +75,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Noise_Influence: 0.4
+    - Noise_Influence: 0
     - Noise_Intensity: 2.6
     - Noise_Speed: 7.33
     - Noise_Speed_Factor: 0.1
     - Rotate_Speed: 0
     - Tendril_Offset_Difference: 0.12
     - UV_Based_Multiplier: 0
-    - Vertex_Color_Offset_Difference: 0.19
-    - Warp_Intensity: 0.1
-    - Warp_Min: 0
+    - Vertex_Color_Offset_Difference: 0.09
+    - Warp_Intensity: 0.2
+    - Warp_Min: 0.04
     - Wave_Density: 10
     - Wave_Intensity: 0.1
     - Wave_Speed: 5.69
@@ -118,7 +118,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Tint: {r: 0.8867924, g: 0.8370448, b: 0.73202205, a: 1}
+    - _Tint: {r: 0.8867924, g: 0.8370448, b: 0.73202205, a: 0.40392157}
   m_BuildTextureStacks: []
 --- !u!114 &6379181035893747266
 MonoBehaviour:
